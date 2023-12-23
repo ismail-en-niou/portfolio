@@ -101,6 +101,8 @@ button:active{
   text-align: center;
   font-size: 1.6rem;
   color:var(--title) ;
+  transition: transform 0.3s ease-in-out;
+  transform: scale(1);
 }
 .scroll2top:hover
 {

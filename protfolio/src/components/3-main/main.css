@@ -75,7 +75,7 @@ section.left-section.flex button:hover{
     cursor: pointer;
 }
 main section.right-section{
-/* flex-grow: 1; */
+flex-grow: 1;
 flex-wrap: wrap;
 justify-content: center;
 column-gap: 16px;
@@ -86,6 +86,7 @@ row-gap: 2rem;
 }
 .card .box .title{
     color: var(--title);
+    text-transform:capitalize;
 }
 .card .box .sub-title{
     color: var(--subtitle);
